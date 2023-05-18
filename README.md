@@ -1,2 +1,0 @@
-# ToritoFakeStore
-ToritoFakeStore
