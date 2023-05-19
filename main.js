@@ -64,7 +64,7 @@ btnAllData.addEventListener('click', async () => {
     console.log(responseData)
     let allProductsString = ""
     responseData.forEach(product => {
-      const stringHTML = renderAllHTML(product.IID, product.image, product.title, product.description, product.category, product.price)
+      const stringHTML = renderAllHTML(product.id, product.image, product.title, product.description, product.category, product.price)
       allProductsString = allProductsString + stringHTML
     });
     console.log(allProductsString)
