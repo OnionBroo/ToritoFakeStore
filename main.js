@@ -20,9 +20,9 @@ const remderHTML = (IID, urlImg, title, description, category, price) => {
     `
 }
 const renderAllHTML = (IID, urlImg, title, description, category, price) => {
-  return `<div class="card mt-3" style="width: 18rem;">
-  <li class="list-group-item list-group list-group-flush  bg-dark text-dark bg-opacity-25">ID del producto: ${IID}</li>
-  <img src="${urlImg}" class="card-img-top" alt="...">
+  return `<div class="col-4 card mt-3 p-2 " style="width: 18rem;">
+  <li class="list-group-item list-group  bg-dark text-light">ID del producto: ${IID}</li>
+  <img src="${urlImg}" class="card-img-top mt-3" alt="...">
   <div class="card-body">
     <h5 class="card-title">${title}</h5>
     <p class="card-text">${description}</p>
