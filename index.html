@@ -20,7 +20,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
        
-        <li class="breadcrumb-item "><a class="text-decoration-none text-danger" href="https://www.instagram.com/androx_mandrox/">IG</a></li>
+        <li class="breadcrumb-item "><a class="text-decoration-none text-danger" href="https://www.instagram.com/androx_mandrox/">Instagram</a></li>
         <li class="breadcrumb-item"><a class="text-decoration-none text-warning" href="https://fakestoreapi.com">Api</a></li>
       </ol>
     </nav>
@@ -38,8 +38,23 @@
 
         </div>
         <button id="btnAllData" type="button" class="btn btn-dark mt-3">Cargar Todo</button>
+        <div class="input-group mt-2 row">
+          <div class="input-group-text">
+            <input id="menFilter" class="form-check-input mt-0" type="checkbox" value="men's clothing" >
+            <p class="form-text col-2 text-align-center">Ropa de hombre</p>
+            <input id="womenFilter" class="form-check-input mt-0" type="checkbox" value="women's clothing" >
+            <p class="form-text col-2 text-align-center">Ropa de mujer</p>
+            <input id="jeweleryFilter" class="form-check-input mt-0" type="checkbox" value="jewelery" >
+            <p class="form-text col-2 text-align-center">Joyería</p>
+            <input id="electronicsFilter" class="form-check-input mt-0" type="checkbox" value="electronics" >
+            <p class="form-text col-2 text-align-start">Electrónica</p>
+          </div>
         <div id="root"> </div>
         <div class=" container row justify-content-evenly" id="rootAllData"></div>
+        <div class=" container row justify-content-evenly" id="rootAllMenData"></div>
+        <div class=" container row justify-content-evenly" id="rootAllWomenData"></div>
+        <div class=" container row justify-content-evenly" id="rootAllJeweleryData"></div>
+        <div class=" container row justify-content-evenly" id="rootAllElectronicsData"></div>
         </div>
       </div>
 
